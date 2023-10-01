@@ -8,9 +8,9 @@ public class TestController : ControllerBase
 {
   
 
-    [HttpGet("hello")]
+    [HttpGet("login")]
     public IActionResult Get()
     {
-        return Ok("Salam");
+        return Ok("Sagol");
     }
 }
